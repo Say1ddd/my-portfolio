@@ -1,9 +1,10 @@
-import styles from "./page.module.css";
+'use client'
+import "@/styles/loading.css";
 
 export default function Loading() {
     return (
-        <div className={styles.loading__container}>
-            <p className={styles.text}>Sajid/Portfolio</p>
+        <div className="loading__container">
+            <p className="text">Sajid/Portfolio</p>
         </div>
     );
 };

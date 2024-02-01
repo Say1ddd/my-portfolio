@@ -188,24 +188,6 @@
     backdrop-filter: blur(24px);
   }
 
-  .loading__container {
-    display: inline-block;
-  }
-
-  .text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100%;
-    font-family: monospace;
-    border-right: 10px solid;
-    overflow: hidden;
-    animation:
-    typing 3s steps(15),
-    cursor .4s step-end infinite alternate;
-  }
-
   @keyframes typing {
     from {
       width: 0;

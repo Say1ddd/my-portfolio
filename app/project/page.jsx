@@ -5,8 +5,8 @@ import Loading from "./loading";
 
 export default function Test() {
   return (
-      <div>
+      <main>
         <p>sajid</p>
-      </div>
+      </main>
   );
 }

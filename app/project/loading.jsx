@@ -4,7 +4,7 @@ import { Suspense } from "react";
 export default function Loading() {
     return (
         <div className={styles.loading__container}>
-            <p className={styles.text}>Sajid/Portfolio</p>
+            <span className={styles.text}>Sajid/Portfolio</span>
         </div>
     );
 };
